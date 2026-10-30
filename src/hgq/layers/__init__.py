@@ -5,6 +5,7 @@ from .batch_normalization import QBatchNormalization
 from .conv import QConv1D, QConv2D, QConv3D
 from .core import *
 from .einsum_dense_batchnorm import QEinsumDenseBatchnorm
+from .graph import QGraphConv, QGraphPool
 from .ops import *
 from .pooling import *
 from .pooling import (
@@ -56,6 +57,8 @@ __all__ = [
     'QConv2D',
     'QConv3D',
     'QEinsumDenseBatchnorm',
+    'QGraphConv',
+    'QGraphPool',
     'QSoftmax',
     'Quantizer',
     'QAdd',
